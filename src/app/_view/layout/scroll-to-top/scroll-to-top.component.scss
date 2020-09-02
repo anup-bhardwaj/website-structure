@@ -1,0 +1,24 @@
+.scroll-up {
+    background-color: #f27280;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .scroll-up .fa-angle-up {
+    color: #fff;
+    font-size: 20px;
+}
+.scroll-up:hover {
+    background-color: #c16c86;
+    transform: translateY(-4px);
+}
+#scroll_top{
+  transition: all .5s ease-in-out;
+  z-index: 9;
+}
