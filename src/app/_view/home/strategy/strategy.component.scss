@@ -1,0 +1,67 @@
+.color-white {
+    color: #fff;
+}
+.lead {
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    width: 100%;
+}
+.chart {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    width: 120px;
+}
+.chart-text {
+    display: inline-block;
+    line-height: 120px;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+.progress-container {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.progress-badge {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+.progress {
+    background-color: rgba(109,194,52,.3);
+}
+.progress {
+    margin-top: 0.8rem;
+    border-radius: 0;
+    height: 1px;
+}
+.progress-bar {
+    height: 1rem;
+    color: #fff;
+    background-color: #6dc234;
+}
+.progress-value {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #7ace42;
+}
+

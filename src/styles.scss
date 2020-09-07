@@ -1,0 +1,278 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight:400 !important;
+	font-size: .87rem;
+	line-height: 1.75 !important;
+	color: #646464;
+	overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: 'Work Sans', sans-serif;
+    font-weight: 400 !important;
+    margin-bottom: 0.6rem !important;
+    line-height: 1.25 !important;
+	color: #212121;
+}
+h1, .h1 {
+	font-size: 2.8rem !important;
+	font-weight:500 !important;
+}
+h2, .h2 {
+	font-size: 2.3rem !important;
+}
+h3, .h3 {
+	font-size: 2rem !important;
+}
+h4, .h4 {
+	font-size: 1.7rem !important;
+}
+h5, .h5 {
+	font-size: 1.25rem;
+	font-weight:500 !important;
+}
+h6, .h6 {
+	font-size: 1rem !important;
+	text-transform: uppercase;
+	font-weight:600 !important;
+	margin-bottom: 1rem;
+}
+::selection {
+	color: #fff;
+}
+::-moz-selection {
+	color: #fff;
+}
+mark{
+	color:#fff;
+}
+.padding-top {
+    padding-top: 120px;
+}
+.padding-bottom {
+    padding-bottom: 120px;
+}
+.padding-top-bottom-1 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.padding-top-bottom {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.padding-bottom-smaller {
+    padding-bottom: 40px;
+}
+.padding-top-small {
+    padding-top: 80px;
+}
+.padding-top-bottom-small {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.over-hide {
+    overflow: hidden;
+}
+.section {
+    position: relative;
+    width: 100%;
+}
+.background-dark {
+    background-color: #212121;
+}
+.background-white {
+    background-color: #ffffff;
+}
+.background-grey {
+    background-color: #fbfbfb;
+}
+.background-dark-2 {
+    background-color: #1b1b1b;
+}
+.z-bigger {
+    z-index: 1000;
+}
+.z-bigger-2 {
+    z-index: 1010;
+}
+.list-style {
+    margin-top: 0.5rem;
+    list-style: none;
+}
+.list-style li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+.list-style li i {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    height: 1.1rem;
+    width: 20px;
+    text-align: left;
+    margin-right: 10px;
+}
+.text-center {
+    text-align: center!important;
+}
+.text-left {
+    text-align: left!important;
+}
+.mg-auto {
+    margin: 0 auto;
+    text-align: center;
+}
+.rounded-circle {
+    border-radius: 50%;
+}
+.mb-0 {
+    margin-bottom: 0!important;
+}
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+.mb-2 {
+    margin-bottom: .5rem!important;
+}
+.mt-3 {
+    margin-top: 1rem!important;
+}
+.mr-3 {
+    margin-right: 1rem!important;
+}
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+.ml-1 {
+    margin-left: .25rem!important;
+}
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.mt-1 {
+    margin-top: .25rem!important;
+}
+.active-nav{
+    color: #6dc234;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+.btn {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25 !important;
+    padding: 0.8rem 1.4rem !important;
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    border-radius: 0.15rem !important;
+    cursor: pointer !important;
+    border: none !important;
+    text-decoration: none;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0);
+    background-color: #6dc234 !important;
+    color: #fff !important;
+}
+.btn-link {
+    cursor: pointer;
+}
+.btn-link {
+    font-weight: 400;
+    color: #666;
+    border-radius: 0;
+    padding: 0.4rem 0.6rem;
+    transition: all 300ms linear;
+    text-decoration: none;
+}
+.btn-link, .btn-link:active, .btn-link:focus {
+    border-color: transparent !important;
+}
+.btn-link, .btn-link.active, .btn-link:active, .btn-link:disabled {
+    background-color: transparent !important;
+}
+.btn-link.btn-primary{
+    color: #6dc234;
+}
+.btn-link.btn-primary:hover{
+    color: #7ace42;
+    text-decoration: none;
+}
+.main-title.text-center h2, .main-title.text-center h3, .main-title.text-center h4, .main-title.text-center h5 {
+    margin: 0 auto;
+}
+
+.main-title.on-dark h2, .main-title.on-dark h3, .main-title.on-dark h4, .main-title.on-dark h5 {
+    color: #fff;
+}
+.main-title h2, .main-title h3, .main-title h4, .main-title h5 {
+    max-width: 500px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.main-title {
+    margin-bottom: 4.5rem;
+}
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+.color-white {
+    color: #fff;
+}
+.services-box-3.bigger-icon a, .services-box-3.bigger-icon p {
+    margin-left: 70px;
+    padding-left: 0;
+}
+.services-box-3.dark p {
+    color: #dcdcdc;
+}
+.call-box-5 {
+    position: relative;
+    padding: 2.6rem;
+    border: 5px solid #6dc234;
+}
+.call-box-5.dark p {
+    color: #f9f9f9;
+}
+.call-box-5 a {
+    padding-left: 0;
+}
+.rounded {
+    border-radius: .25rem;
+}
+
+// media query start
+
+@media (max-width: 991px){
+    h3, .h3 {
+        font-size: 1.7rem !important;
+    }
+    h4, .h4 {
+        font-size: 1.5rem !important;
+    }
+    h5, .h5 {
+        font-size: 1.2rem !important;
+    }
+    }
+@media (max-width: 767px){
+    h3, .h3 {
+        font-size: 1.5rem !important;
+    }
+h4, .h4 {
+    font-size: 1.3rem !important;
+}
+h5, .h5 {
+    font-size: 1.1rem !important;
+}
+.transform-y-160, .transform-y-120, .transform-y-80, .transform-y-40 {
+    transform: none;
+}
+
+}

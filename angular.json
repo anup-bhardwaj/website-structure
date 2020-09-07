@@ -31,12 +31,15 @@
               "src/styles.scss",
               "node_modules/font-awesome/css/font-awesome.css",
               "node_modules/bootstrap/scss/bootstrap.scss",
-              "src/assets/css/jquery.fancybox.css"
+              "src/assets/css/jquery.fancybox.css",
+              "src/assets/css/owl.carousel.css",
+              "src/assets/css/jquery.transition.css"
             ],
             "scripts": [
               "src/assets/js/plugins.js",
               "src/assets/js/royal_preloader.min.js",
-              "src/assets/js/tether.min.js"
+              "src/assets/js/tether.min.js",
+              "src/assets/js/custom-company.js"
             ]
           },
           "configurations": {

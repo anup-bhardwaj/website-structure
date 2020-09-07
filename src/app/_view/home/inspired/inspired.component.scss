@@ -1,0 +1,45 @@
+.main-subtitle-top {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6dc234;
+}
+.main-subtitle-bottom.smaller {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #afafaf;
+    letter-spacing: 1px;
+}
+.blog-box-2, .blog-box-2 .post-link-box {
+    position: relative;
+    width: 100%;
+    display: block;
+} 
+.blog-box-2 .post-link-box p {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    width: 130px;
+    display: inline-block;
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #999;
+    font-weight: 700;
+}
+.blog-box-2 .post-link-box h5 {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 2px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: all 200ms linear;
+}
+.blog-box-2 .post-link-box h5:hover{
+    color: #6dc234;
+}

@@ -1,0 +1,52 @@
+.parallax-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+.grey-fade-over {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #323232;
+    opacity: .7;
+    z-index: 0;
+}
+.main-title {
+    margin-bottom: 4.5rem;
+}
+.main-subtitle-top {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #7ace42;
+}
+.main-title.on-dark .main-subtitle-bottom {
+    color: #d5d5d5;
+}
+.main-subtitle-bottom {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #afafaf;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+
+// media query start
+
+@media only screen and (max-width: 1400px){
+    .parallax-1 {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: top center!important;
+    }
+}
