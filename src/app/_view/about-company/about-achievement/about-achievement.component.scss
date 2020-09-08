@@ -1,0 +1,40 @@
+.counter-wrap.ver-2 {
+    height: 7rem;
+}
+.counter-wrap {
+    position: relative;
+    width: 100%;
+}
+.counter-wrap p {
+    text-align: center;
+    color: #6dc234;
+}
+.counter-wrap.ver-2 p span.small-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 7rem;
+    line-height: 7rem;
+    height: 7rem;
+    opacity: 0.5;
+    font-weight: 100;
+    z-index: 1;
+    text-align: center;
+    vertical-align: top;
+}
+.counter-wrap.ver-2 h6 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -0.5rem;
+    font-weight: 600;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: .95rem;
+    letter-spacing: 2px;
+}

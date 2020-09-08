@@ -1,0 +1,34 @@
+.background-image-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.padding-on-grid-12 {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.main-subtitle-bottom.smaller {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #afafaf;
+}
+.services-box-3 {
+    position: relative;
+    width: 100%;
+}
+.services-box-3.border-on-light {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.services-box-3 i {
+    display: inline-block;
+    font-size: 28px;
+    padding-right: 20px;
+    vertical-align: text-bottom;
+    color: #6dc234;
+}
+.services-box-3 a, .services-box-3 p {
+    margin-left: 48px;
+    padding-left: 0;
+}
