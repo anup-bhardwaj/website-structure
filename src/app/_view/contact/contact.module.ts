@@ -5,10 +5,13 @@ import { ContactRoutingModule } from './contact-routing.module';
 import { ContactComponent } from './contact.component';
 import { ContactBannerComponent } from './contact-banner/contact-banner.component';
 import { ContactDetailsComponent } from './contact-details/contact-details.component';
+import { SeparateLineComponent } from './separate-line/separate-line.component';
+import { AddressComponent } from './address/address.component';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
-  declarations: [ContactComponent, ContactBannerComponent, ContactDetailsComponent],
+  declarations: [ContactComponent, ContactBannerComponent, ContactDetailsComponent, SeparateLineComponent, AddressComponent, MapComponent],
   imports: [
     CommonModule,
     ContactRoutingModule,

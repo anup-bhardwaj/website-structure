@@ -1,0 +1,27 @@
+.separator-wrap {
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separator {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 10%;
+}
+.separator-line.dashed {
+    border-top-style: dashed;
+    outline: none;
+}
+.separator-line {
+    position: relative;
+    height: 1px;
+    display: block;
+    top: 1px;
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+}

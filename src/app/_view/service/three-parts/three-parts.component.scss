@@ -1,0 +1,30 @@
+.services-box-1 {
+    position: relative;
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 0.35rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.services-box-1 .icon-in-box {
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+    transition: all 200ms linear;
+    box-shadow: 0px 5px 25px 0px rgba(109, 194, 52, .3);
+}
+.services-box-1 .icon-in-box i {
+    font-size: 35px;
+    line-height: 90px;
+    text-align: center;
+    color: #6dc234;
+}
+.services-box-1 .btn-link {
+    padding-left: 0;
+}
+.services-box-1:hover .icon-in-box {
+    transform: translateY(-15px);
+    box-shadow: 0px 20px 35px 0px rgba(109, 194, 52, .4);
+}
+
+// css start
+

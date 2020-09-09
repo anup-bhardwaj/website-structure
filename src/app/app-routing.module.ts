@@ -38,6 +38,18 @@ const routes: Routes = [
       {
         path: 'contact', loadChildren: () => import('./_view/contact/contact.module').then(m => m.ContactModule)
       },
+      {
+        path: 'team', loadChildren: () => import('./_view/team/team.module').then(m => m.TeamModule)
+      },
+      {
+        path: 'portfolio', loadChildren: () => import('./_view/portfolio/portfolio.module').then(m => m.PortfolioModule)
+      },
+      {
+        path: 'blog', loadChildren: () => import('./_view/blog/blog.module').then(m => m.BlogModule)
+      },
+      {
+        path: 'service', loadChildren: () => import('./_view/service/service.module').then(m => m.ServiceModule)
+      },
     ]
   },
 

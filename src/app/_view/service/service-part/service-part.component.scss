@@ -1,0 +1,14 @@
+.services-box-1.border-on-light.border-on-hover {
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.services-box-1 {
+    position: relative;
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 0.35rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
