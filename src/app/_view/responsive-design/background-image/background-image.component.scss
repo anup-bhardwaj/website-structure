@@ -1,4 +1,4 @@
-.parallax {
+.parallax-1 {
     background-repeat: repat;
     background-attachment: fixed;
     background-size: cover;
@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1;
+    z-index: -1;
     width: 100%;
 }
 .grey-fade-over {
@@ -18,16 +18,13 @@
     left: 0;
     background-color: #323232;
     opacity: .7;
-    z-index: 300;
-}
-.parallax-fade-top {
-    opacity: 1;
-    top: 0px;
-    z-index: 999;
+    z-index: 0;
 }
 
+
+// media query start
 @media only screen and (max-width: 1400px){
-.parallax {
+.parallax-1 {
     background-size: cover;
     background-attachment: scroll;
     background-position: top center!important;

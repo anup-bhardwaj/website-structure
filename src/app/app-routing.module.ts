@@ -50,6 +50,9 @@ const routes: Routes = [
       {
         path: 'service', loadChildren: () => import('./_view/service/service.module').then(m => m.ServiceModule)
       },
+      {
+        path: 'responsive-design', loadChildren: () => import('./_view/responsive-design/responsive-design.module').then(m => m.ResponsiveDesignModule)
+      },
     ]
   },
 

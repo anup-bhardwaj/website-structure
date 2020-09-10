@@ -237,6 +237,9 @@ mark{
     transition: all 300ms linear;
     text-decoration: none;
 }
+.btn:hover, .btn:focus:hover, .btn:active:hover, .btn.active:hover {
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+}
 .btn-link, .btn-link:active, .btn-link:focus {
     border-color: transparent !important;
 }
@@ -254,15 +257,9 @@ mark{
     margin: 0 auto;
 }
 .justify-content-center {
-    -webkit-box-pack: center!important;
-    -webkit-justify-content: center!important;
-    -ms-flex-pack: center!important;
     justify-content: center!important;
 }
 .align-items-stretch {
-    -webkit-box-align: stretch!important;
-    -webkit-align-items: stretch!important;
-    -ms-flex-align: stretch!important;
     align-items: stretch!important;
 }
 .main-title.on-dark h2, .main-title.on-dark h3, .main-title.on-dark h4, .main-title.on-dark h5 {
@@ -329,7 +326,7 @@ mark{
     width: 100%;
 }
 .img-raised {
-    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 25px 0px rgba(245, 231, 231, 0.3);
 }
 .main-subtitle-top {
     font-size: 0.8rem;

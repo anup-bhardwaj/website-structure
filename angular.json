@@ -38,8 +38,7 @@
               "src/assets/js/plugins.js",
               "src/assets/js/royal_preloader.min.js",
               "src/assets/js/tether.min.js",
-              "src/assets/js/custom-company.js",
-              "src/assets/css/custon-portfolio.js"
+              "src/assets/js/custom-company.js"
             ]
           },
           "configurations": {
