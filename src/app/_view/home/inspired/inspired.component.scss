@@ -11,6 +11,9 @@
 .blog-box-1 a {
     text-decoration: none;
 }
+.author-wrap p a:hover {
+    color: green !important;
+}
 .blog-box-1 a h5 {
     color: #212121;
     transition: all 200ms linear;

@@ -11,10 +11,11 @@ import { ProjectDesignComponent } from './project-design/project-design.componen
 import { AboutIconComponent } from './about-icon/about-icon.component';
 import { AboutTeamComponent } from './about-team/about-team.component';
 import { AboutAchievementComponent } from './about-achievement/about-achievement.component';
+import { SeparateLineComponent } from './separate-line/separate-line.component';
 
 
 @NgModule({
-  declarations: [AboutCompanyComponent, AboutBannerComponent, AboutBenefitsComponent, AboutFourPartComponent, AboutUsComponent, ProjectDesignComponent, AboutIconComponent, AboutTeamComponent, AboutAchievementComponent],
+  declarations: [AboutCompanyComponent, AboutBannerComponent, AboutBenefitsComponent, AboutFourPartComponent, AboutUsComponent, ProjectDesignComponent, AboutIconComponent, AboutTeamComponent, AboutAchievementComponent, SeparateLineComponent],
   imports: [
     CommonModule,
     AboutCompanyRoutingModule,

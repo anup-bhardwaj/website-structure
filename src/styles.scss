@@ -8,6 +8,14 @@ body{
 	color: #646464 !important;
 	overflow-x: hidden;
 }
+::selection {
+    background-color: #6dc234;
+    color: #fff;
+}
+::-moz-selection {
+    color: #fff;
+    background-color: #6dc234;
+}
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
 	font-family: 'Work Sans', sans-serif;
@@ -38,12 +46,6 @@ h6, .h6 {
 	text-transform: uppercase;
 	font-weight:600 !important;
 	margin-bottom: 1rem;
-}
-::selection {
-	color: #fff;
-}
-::-moz-selection {
-	color: #fff;
 }
 mark{
 	color:#fff;
@@ -297,6 +299,9 @@ mark{
 }
 .color-white {
     color: #fff;
+}
+.color-black{
+    color: #1b1b1b;
 }
 .services-box-3.bigger-icon a, .services-box-3.bigger-icon p {
     margin-left: 70px;
