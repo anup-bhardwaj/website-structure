@@ -1,0 +1,38 @@
+.img-120 {
+    max-width: 120px;
+    width: 100%;
+    display: block;
+}
+.tabs .row {
+    justify-content: center;
+}
+.tab-icon span{
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+.tab-icon:hover img {
+    transform: translateY(-54px);
+}
+.tab-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #4e4e4e;
+}
+.tab-icon{
+    text-decoration: none;
+    color: auto;
+}
+ul {
+    padding-left: 0px;
+}
+ul li {
+    display: inline-block;
+    width: 124px;
+    margin: 0px 5px;
+    text-align: center;
+}
