@@ -4,15 +4,15 @@
             <div class="col-md-12">
                 <div class="grid-filter">
                     <ul class="filter">
-                        <li><a href="javascript:;" class="current">all</a></li>
-                        <li><a href="javascript:;">branding</a></li>
-                        <li><a href="javascript:;">photo</a></li>
-                        <li><a href="javascript:;">motion</a></li>
+                        <li><a href="javascript:;" (click)="activeLearning('all')" [ngClass]="{'active': selectedLearning == 'all'}" class="current">all</a></li>
+                        <li><a href="javascript:;" (click)="activeLearning('branding')" [ngClass]="{'active': selectedLearning == 'branding'}">branding</a></li>
+                        <li><a href="javascript:;" (click)="activeLearning('photo')" [ngClass]="{'active': selectedLearning == 'photo'}">photo</a></li>
+                        <li><a href="javascript:;" (click)="activeLearning('motion')" [ngClass]="{'active': selectedLearning == 'motion'}">motion</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="grid-wraper clearfix">			
-                <div class="grid-box float-inline third with-margin branding">
+            <div *ngIf="selectedLearning == 'all'" class="grid-wraper clearfix">			
+                <div class="grid-box float-inline third with-margin">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">	
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/1.jpg" alt="" />	
@@ -22,7 +22,7 @@
                         </div>	
                     </a>
                 </div>	
-                <div class="grid-box float-inline third with-margin photo motion">
+                <div class="grid-box float-inline third with-margin photo">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">		
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/2.jpg" alt="" />
@@ -32,7 +32,7 @@
                         </div>	
                     </a>	
                 </div>	
-                <div class="grid-box float-inline third with-margin branding">
+                <div class="grid-box float-inline third with-margin">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">	
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/9.jpg" alt="" />	
@@ -42,7 +42,7 @@
                         </div>	
                     </a>	
                 </div>	
-                <div class="grid-box float-inline third with-margin photo motion">
+                <div class="grid-box float-inline third with-margin photo">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">	
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/4.jpg" alt="" />	
@@ -52,7 +52,7 @@
                         </div>	
                     </a>	
                 </div>	
-                <div class="grid-box float-inline third with-margin motion">
+                <div class="grid-box float-inline third with-margin">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">	
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/5.jpg" alt="" />
@@ -62,7 +62,7 @@
                         </div>	
                     </a>		
                 </div>	
-                <div class="grid-box float-inline third with-margin branding photo">
+                <div class="grid-box float-inline third with-margin photo">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">	
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/3.jpg" alt="" />	
@@ -72,7 +72,7 @@
                         </div>
                     </a>	
                 </div>		
-                <div class="grid-box float-inline third with-margin branding">
+                <div class="grid-box float-inline third with-margin">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">	
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/6.jpg" alt="" />	
@@ -82,7 +82,7 @@
                         </div>	
                     </a>
                 </div>	
-                <div class="grid-box float-inline third with-margin photo motion">
+                <div class="grid-box float-inline third with-margin photo">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">		
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/7.jpg" alt="" />
@@ -92,7 +92,7 @@
                         </div>	
                     </a>	
                 </div>	
-                <div class="grid-box float-inline third with-margin branding">
+                <div class="grid-box float-inline third with-margin">
                     <a href="javascript:;">
                         <div class="portfolio-box-1 rounded">	
                             <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/8.jpg" alt="" />	
@@ -102,6 +102,152 @@
                         </div>	
                     </a>	
                 </div>
+            </div>
+            <div *ngIf="selectedLearning == 'branding'" class="grid-wraper clearfix">
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/5.jpg" alt="" />
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>		
+                </div>			
+                <div class="grid-box float-inline third with-margin photo">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">		
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/2.jpg" alt="" />
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>	
+                <div class="grid-box float-inline third with-margin photo">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/3.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>
+                    </a>	
+                </div>
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/9.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>	
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/1.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>
+                </div>
+                <div class="grid-box float-inline third with-margin photo">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/4.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>	   	
+            </div>
+            <div *ngIf="selectedLearning == 'photo'" class="grid-wraper clearfix">			
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/1.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>
+                </div>	
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/9.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>
+                <div class="grid-box float-inline third with-margin photo">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">		
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/2.jpg" alt="" />
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>	
+            </div>
+            <div *ngIf="selectedLearning == 'motion'" class="grid-wraper clearfix">	
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/5.jpg" alt="" />
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>		
+                </div>		
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/9.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>	
+                <div class="grid-box float-inline third with-margin photo">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">		
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/2.jpg" alt="" />
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>	
+                <div class="grid-box float-inline third with-margin photo">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/4.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>	
+                </div>	
+                <div class="grid-box float-inline third with-margin">
+                    <a href="javascript:;">
+                        <div class="portfolio-box-1 rounded">	
+                            <img  src="https://ivang-design.com/funky-theme/img/portfolio/vertical/1.jpg" alt="" />	
+                            <div class="portfolio-mask-3 rounded"></div>
+                            <h5 class="on-center text-center">serve people</h5>
+                            <p class="on-center text-center">design, motion</p>
+                        </div>	
+                    </a>
+                </div>	
             </div>
         </div>	
     </div>		

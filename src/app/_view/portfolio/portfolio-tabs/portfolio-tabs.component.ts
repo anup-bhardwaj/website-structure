@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioTabsComponent implements OnInit {
 
+  selectedLearning = "all";
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  activeLearning(active) {
+    this.selectedLearning = active;
   }
 
 }
